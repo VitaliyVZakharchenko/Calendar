@@ -4,17 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
       integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index.css" />
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
   </head>
   <body>
     <header class="header">
@@ -268,16 +264,16 @@
       <div class="modal__content">
         <div class="create-event">
           <button class="create-event__close-bnt">+</button>
-          <form class="create-event-form">
-            <input type="text" name="title" placeholder="Title" class="create-event-form__date-field" />
-            <div class="create-event-form__time">
-              <input type="date" class="create-event-form__date-field" />
-              <input type="time" class="create-event-form__date-field" />
+          <form>
+            <input type="text" name="title" placeholder="Title" class="create-event__field"/>
+            <div class="create-event__time-block">
+              <input type="date" class="create-event__date-field"/>
+              <input type="time" class="create-event__date-field"/>
               <span>-</span>
-              <input type="time" name="description" placeholder="Description" class="create-event-form__date-field" />
+              <input type="time" class="create-event-form__date-field" />
             </div>
-            <textarea name="" id="" class="create-event-form__field"></textarea>
-            <button type="submit" class="create-event-form__submit-btn">Create</button>
+            <textarea name="description" placeholder="Description" class="create-event__field"></textarea>
+            <button type="submit" class="create-event__submit-btn">Create</button>
           </form>
         </div>
       </div>

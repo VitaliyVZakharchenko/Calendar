@@ -1,0 +1,16 @@
+.event {
+    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    color: #fff;
+
+    &__title {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
